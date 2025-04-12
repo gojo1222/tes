@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="desktop">
+      <div class="div">
+        <div class="overlap"><img class="KIOSJUDI" src="img/KIOSJUDI.png" /></div>
+        <div class="overlap-group">
+          <div class="text-wrapper">Result Togel</div>
+          <div class="text-wrapper-2">Bola hari ini</div>
+          <div class="Liveball-container">
+          <iframe id="Liveball-iframe" src="https://www.scorebat.com/embed/livescore/?token=MjkyNzVfMTY2NTU0NDk4OV9mNjhiOGI0OGI4MDExYmIyZjhkNTg3M2FhOWQzMWE4M2E5NDU2OWQz" frameborder="0" height="760" allow="autoplay; fullscreen" style="width: 100%; height: 100%; overflow: hidden; display: block;" class="_scorebatEmbeddedPlayer_" scrolling="yes"></iframe></div>
+          <img class="untitled" src="img/untitled-2-1.png" />
+          <img class="img" src="img/untitled-2-2.png" />
+          <img class="untitled-2" src="img/untitled-2-3.png" />
+        </div>
+        <div class="overlap-2">
+          <div class="group">
+            <div class="div-wrapper"><div class="text-wrapper-3">Promosi situs</div></div>
+          </div>
+          <div class="group">
+            <div class="div-wrapper"><div class="promosi-event-situs">Promosi &amp; Event Situs</div></div>
+          </div>
+        </div>
+        <div class="overlap-3">
+          <div class="overlap-4"><div class="text-wrapper-4">| Situs Slot Gacor...</div></div>
+          <div class="text-wrapper-5">Search</div>
+        </div>
+        <div class="overlap-wrapper">
+          <div class="div-wrapper"><div class="text-wrapper-3">Daftar Situs</div></div>
+        </div>
+        <div class="overlap-group-wrapper">
+          <div class="div-wrapper"><div class="text-wrapper-3">Review Situs</div></div>
+        </div>
+        <div class="group-2">
+          <div class="div-wrapper"><div class="text-wrapper-3">Cara Bermain</div></div>
+        </div>
+        <div class="text-wrapper-6">Sponsor :</div>
+        <div class="frame">
+          <div class="component-wrapper">
+            <div class="component">
+              <div class="group-3">
+                <div class="rectangle"></div>
+                <img class="horasbet" src="img/horasbet.png" />
+                <div class="rectangle-2"></div>
+                <div class="rectangle-3"></div>
+                <div class="rectangle-4"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="frame-2"></div>
+      </div>
+    </div>
+ <style>
+  #chatToggleBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999999;
+    background-color: #4f46e5;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    font-size: 24px;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+  }
+
+  #chatBox {
+    position: fixed;
+    bottom: 90px;
+    right: 20px;
+    width: 350px;
+    height: 500px;
+    display: none;
+    z-index: 9998;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+    overflow: hidden;
+    pointer-events: none;
+  }
+
+  #chatBox.open {
+    pointer-events: auto;
+  }
+
+  #chatBox iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
+</style>
+
+<button id="chatToggleBtn">💬</button>
+<div id="chatBox">
+  <iframe src="https://deadsimplechat.com/B2wBKoQBd"></iframe>
+</div>
+
+<script>
+  const toggleBtn = document.getElementById('chatToggleBtn');
+  const chatBox = document.getElementById('chatBox');
+  let chatVisible = false;
+
+  toggleBtn.addEventListener('click', () => {
+    chatVisible = !chatVisible;
+    chatBox.style.display = chatVisible ? 'block' : 'none';
+    if (chatVisible) {
+      chatBox.classList.add('open');
+    } else {
+      chatBox.classList.remove('open');
+    }
+  });
+</script>
+  </body>
+</html>
