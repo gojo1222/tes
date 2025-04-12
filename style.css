@@ -32,6 +32,14 @@
   object-fit: cover;
 }
 
+.desktop .chat-button {
+  position: absolute;
+  width: 55px;
+  height: 19px;
+  top: 14px;
+  left: 1672px;
+}
+
 .desktop .overlap-group {
   position: absolute;
   width: 416px;
@@ -52,6 +60,15 @@
   font-size: 18px;
   letter-spacing: 0;
   line-height: normal;
+}
+
+.desktop .chat-ico {
+  position: absolute;
+  width: 17px;
+  height: 18px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
 }
 
 .desktop .text-wrapper-2 {
