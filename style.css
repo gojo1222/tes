@@ -62,6 +62,18 @@
   line-height: normal;
 }
 
+.desktop .text-wrapper-1 {
+  position: absolute;
+  top: 162px;
+  left: 15px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffff;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
 .desktop .chat-ico {
   position: absolute;
   width: 17px;
