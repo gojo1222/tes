@@ -19,7 +19,7 @@
   height: 51px;
   top: 0;
   left: 0;
-  background-image: url(/img/header.png);
+  background-image: url(img/header.png);
   background-size: 100% 100%;
 }
 
@@ -311,7 +311,7 @@
   height: 137px;
   top: 690px;
   left: 643px;
-  background-image: url(/img/banner-bawah.png);
+  background-image: url(img/banner-bawah.png);
   background-size: cover;
   background-position: 50% 50%;
   position: absolute;
